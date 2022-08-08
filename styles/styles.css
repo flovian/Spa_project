@@ -19,16 +19,20 @@ body {
    display: grid;
    grid-template-columns: 1fr 1fr;
    margin-bottom: 40px;
+
    
 }
 
 .map {
     display: grid;
     max-width: 70%;
+
+
 }
 
 .map > img {
     object-fit: fill;
+
 }
 
 .turnout-holder {
@@ -37,6 +41,7 @@ body {
     gap: 1rem;
     justify-content: center;
     align-items: center;
+
 }
 
 .turnout-holder > h1 {
@@ -45,21 +50,27 @@ body {
 }
 
 .turnout > img {
-    border-radius: 1.5rem;
     overflow:hidden;
     display: block;
     width: 100%;
     object-fit: cover;
+    border-style: double;
+    border-color: #FF8C00;
+    border-radius: 10px;
 
 }
 
 
 .results > img {
-    border-radius: 1.5rem;
     overflow:hidden;
     display: block;
     width: 100%;
     object-fit: cover;
+    border-style: double;
+    border-radius: 10px;
+    border-color: #FF8C00;
+
+
 
 }
 
@@ -69,14 +80,21 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding-left: 15px;
-    margin-top:10px ;
+    margin-top:20px ;
+}
+.ward-1 {
+    border-style: double;
+    border-radius: 10px;
+    border-color: #FF8C00;
 }
 
 
 .graph {
     padding: .2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
+    border-style: double;
+    border-radius: 10px;
+    border-color: #FF8C00;
+    margin-bottom: 6%;
 }
 .graph > h5 {
     margin: 1.2rem 0 2rem;
@@ -87,7 +105,7 @@ body {
     border-radius: 1.5rem;
     overflow:hidden;
     display: block;
-    width: 70%;
-    object-fit: cover;
+    width: 100%;
+    object-fit: fill;
 }
 
